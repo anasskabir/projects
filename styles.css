@@ -304,7 +304,15 @@ button:active{
 
 /* footer */
 
-#explore{
-    background-color: rgba(115, 66, 214, 0.1)
+footer{
+    background-color: #242424;
+}
 
+.footer__logo--img{
+    width: 160px;
+}
+
+.footer__link,
+.footer__copyright{
+    color: white;
 }
