@@ -149,6 +149,10 @@ button:active{
     margin: 0 auto;
 }
 
+.no-cursor{
+    cursor: not-allowed;
+}
+
 /*highlights*/
 
 #highlights{
@@ -238,7 +242,7 @@ button:active{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 .car__img{
     max-height: 380px;
@@ -277,4 +281,30 @@ button:active{
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
+}
+
+/* Latest */
+
+.cars__img--wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* explore */
+
+#explore{
+    background-color: rgba(115, 66, 214, 0.1)
+
+}
+
+.btn__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+
+#explore{
+    background-color: rgba(115, 66, 214, 0.1)
+
 }
