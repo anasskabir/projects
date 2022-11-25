@@ -403,6 +403,7 @@ footer{
 
 .footer__list{
     margin-bottom: 20px 0 24px 0;
+    padding-bottom: 10px;
 }
 
 .footer__link{
